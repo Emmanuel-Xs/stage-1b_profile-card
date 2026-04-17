@@ -107,6 +107,7 @@ body {
   font-weight: 600;
   color: var(--text-muted);
   letter-spacing: 0.04em;
+  font-variant-numeric: tabular-nums;
   white-space: nowrap;
   position: relative;
   padding-left: 0.875rem;
