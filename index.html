@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel Nwaohiri — Profile</title>
+    <meta
+      name="description"
+      content="Profile card for Emmanuel Nwaohiri, Frontend Developer and Creative Technologist based in Nigeria."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <article
+        class="profile-card"
+        data-testid="test-profile-card"
+        aria-label="User profile card for Emmanuel Nwaohiri"
+      >
+        <div class="card-eyebrow" aria-hidden="true">
+          <span class="eyebrow-label">Profile</span>
+          <span class="eyebrow-line"></span>
+          <time
+            class="epoch-time"
+            data-testid="test-user-time"
+            aria-live="polite"
+            aria-label="Current epoch time in milliseconds"
+            id="epoch-time"
+          ></time>
+        </div>
+
+        <div class="user-info-wrapper">
+          <figure class="avatar-figure">
+            <img
+              class="avatar-img"
+              data-testid="test-user-avatar"
+              src="https://api.dicebear.com/9.x/notionists/svg?seed=Emmanuel&backgroundColor=b6e3f4"
+              alt="Emmanuel Nwaohiri — illustrated avatar with teal background"
+              width="120"
+              height="120"
+            />
+            <figcaption class="sr-only">Avatar of Emmanuel Nwaohiri</figcaption>
+          </figure>
+
+          <header class="user-info">
+            <h1
+              class="user-name"
+              data-testid="test-user-name"
+              aria-label="Name: Emmanuel Nwaohiri"
+            >
+              Emmanuel Nwaohiri
+            </h1>
+
+            <p class="user-role">
+              Frontend Developer &amp; Creative Technologist
+            </p>
+
+            <p class="user-bio" data-testid="test-user-bio">
+              A frontend developer who turns complex interfaces into smooth,
+              accessible experiences. I obsess over clean architecture,
+              pixel-perfect animations, and shipping things that actually work;
+              from React dashboards to full-stack TanStack apps.
+            </p>
+          </header>
+        </div>
+
+        <nav class="social-nav" aria-label="Social media links">
+          <ul class="social-list" data-testid="test-user-social-links">
+            <li>
+              <a
+                class="social-link"
+                data-testid="test-user-social-twitter"
+                href="https://twitter.com/xs_emmanuel"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter / X — @xs_emmanuel (opens in new tab)"
+              >
+                <svg
+                  class="social-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.26 5.632L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                  />
+                </svg>
+                <span>Twitter</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                data-testid="test-user-social-github"
+                href="https://github.com/Emmanuel-Xs"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub — Emmanuel-Xs (opens in new tab)"
+              >
+                <svg
+                  class="social-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"
+                  />
+                </svg>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                data-testid="test-user-social-facebook"
+                href="https://www.facebook.com/emmanuel.xi.58"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook — Emmanuel Nwaohiri (opens in new tab)"
+              >
+                <svg
+                  class="social-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                  />
+                </svg>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                data-testid="test-user-social-devto"
+                href="https://dev.to/emmanuel_xs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Dev.to — Emmanuel-Xs (opens in new tab)"
+              >
+                <svg
+                  class="social-icon dev-to"
+                  viewBox="0 0 256 256"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <g fill="none">
+                    <rect
+                      width="256"
+                      height="256"
+                      fill="currentColor"
+                      rx="60"
+                    />
+                    <path
+                      fill="#000"
+                      fill-rule="evenodd"
+                      d="M87.375 147.217c0 10.219-6.295 25.701-26.219 25.669H36V83h25.687c19.215 0 25.677 15.46 25.683 25.685l.005 38.532ZM62.582 99.819c2.104 0 4.213.788 6.316 2.363c2.098 1.575 3.156 3.944 3.16 7.095v37.837c0 3.156-1.05 5.519-3.154 7.095c-2.104 1.575-4.213 2.363-6.317 2.363h-9.46V99.819h9.455Z"
+                      clip-rule="evenodd"
+                    />
+                    <path
+                      fill="#000"
+                      d="M141.959 99.053h-28.886v20.871h17.658v16.064h-17.658v20.866h28.892v16.064h-33.712c-6.05.158-11.081-4.634-11.233-10.696V94.256c-.146-6.057 4.641-11.088 10.686-11.24h34.259l-.006 16.037Zm56.19 62.631c-7.157 16.705-19.979 13.38-25.72 0l-20.89-78.662h17.658l16.108 61.778l16.031-61.778H219l-20.851 78.662Z"
+                    />
+                  </g>
+                </svg>
+                <span>Dev.to</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                data-testid="test-user-social-youtube"
+                href="https://www.youtube.com/@emmanuelxs6143"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube — Emmanuel-Xs (opens in new tab)"
+              >
+                <svg
+                  class="social-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M23 9.71a8.5 8.5 0 0 0-.91-4.13a2.92 2.92 0 0 0-1.72-1A78.36 78.36 0 0 0 12 4.27a78.45 78.45 0 0 0-8.34.3a2.87 2.87 0 0 0-1.46.74c-.9.83-1 2.25-1.1 3.45a48.29 48.29 0 0 0 0 6.48a9.55 9.55 0 0 0 .3 2a3.14 3.14 0 0 0 .71 1.36a2.86 2.86 0 0 0 1.49.78a45.18 45.18 0 0 0 6.5.33c3.5.05 6.57 0 10.2-.28a2.88 2.88 0 0 0 1.53-.78a2.49 2.49 0 0 0 .61-1a10.58 10.58 0 0 0 .52-3.4c.04-.56.04-3.94.04-4.54ZM9.74 14.85V8.66l5.92 3.11c-1.66.92-3.85 1.96-5.92 3.08Z"
+                  />
+                </svg>
+                <span>YouTube</span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="social-link"
+                data-testid="test-user-social-frontendmentor"
+                href="https://www.frontendmentor.io/profile/Emmanuel-Xs"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Frontend Mentor — Emmanuel-Xs (opens in new tab)"
+              >
+                <svg
+                  class="social-icon"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <title>Frontend Mentor</title>
+                  <path
+                    d="M12.1706 1.2719a.732.732 0 00-.7186.732v13.914a.732.732 0 00.732.732.732.732 0 00.7318-.732V2.004a.732.732 0 00-.7452-.732zm11.0741 4.1685a.7339.7339 0 00-.2764.063L16.686 8.307a.7329.7329 0 000 1.3361l6.2823 2.8134a.7378.7378 0 00.2993.0648.732.732 0 00.2973-1.401l-4.786-2.1443 4.786-2.1366a.7339.7339 0 00.3698-.9664.7339.7339 0 00-.69-.4327zm-22.499 5.032a.7316.7316 0 00-.7223.9149c1.736 6.677 7.7748 11.341 14.6822 11.341a.732.732 0 000-1.464 13.7055 13.7055 0 01-13.266-10.2449.7316.7316 0 00-.6939-.547z"
+                  />
+                </svg>
+                <span>Frontend Mentor</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        <hr class="section-rule" aria-hidden="true" />
+        <div class="lists-grid">
+          <section class="list-section" aria-labelledby="hobbies-heading">
+            <h2 class="list-heading" id="hobbies-heading">
+              <span aria-hidden="true">✦</span> Hobbies
+            </h2>
+            <ul
+              class="tag-list"
+              data-testid="test-user-hobbies"
+              aria-label="Hobbies"
+            >
+              <li class="tag tag--positive">Web Animation</li>
+              <li class="tag tag--positive">UI/UX Design</li>
+              <li class="tag tag--positive">Reading Web Novels</li>
+              <li class="tag tag--positive">TypeScript</li>
+              <li class="tag tag--positive">Music Discovery</li>
+            </ul>
+          </section>
+
+          <section class="list-section" aria-labelledby="dislikes-heading">
+            <h2 class="list-heading" id="dislikes-heading">
+              <span aria-hidden="true">✦</span> Dislikes
+            </h2>
+            <ul
+              class="tag-list"
+              data-testid="test-user-dislikes"
+              aria-label="Dislikes"
+            >
+              <li class="tag tag--negative">Spaghetti Code</li>
+              <li class="tag tag--negative">Unresponsive Layouts</li>
+              <li class="tag tag--negative">SSD Firmware Bugs</li>
+              <li class="tag tag--negative">Slow Loading Times</li>
+              <li class="tag tag--negative">Dishonesty</li>
+            </ul>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
