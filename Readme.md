@@ -6,9 +6,7 @@
 
 ## Live Demo
 
-<!-- Replace with your deployed URL after hosting -->
-
-🔗 **[View Live](https://your-deployment-url.netlify.app)**
+🔗 **[View Live](https://stage-1b-profile-card-alpha.vercel.app)**
 
 ---
 
